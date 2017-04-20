@@ -1,0 +1,7 @@
+fos_user:
+    db_driver: orm # other valid values are 'mongodb' and 'couchdb'
+    firewall_name: main
+    user_class: AdminBundle\Entity\Users
+    from_email:
+        address: info@eshoptech.ir
+        sender_name: Eshop Tech
